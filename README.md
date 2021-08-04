@@ -1,2 +1,2 @@
 # conley-exercise-167
-A broken program that does nothing
+A program allowing someone to buy cheese.
