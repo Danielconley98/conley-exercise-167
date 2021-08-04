@@ -1,0 +1,121 @@
+//AUTHOR: Daniel Conley
+//PURPOSE: A program that allows the user to apply discounts to purchased products.
+//COURSE: CPT167
+//DATE: 7/22/2021
+
+package edu.cpt167.conley;
+
+//Importing Scanner
+import java.util.Scanner;
+
+
+public class ConleyMainClass {
+	
+	//DECLARE ALL VARIABLES AND CONSTANTS HERE
+
+		public static final double TAX_RATE = .075;
+		public static final String DISCOUNT_NAME_MEMBER = "Member";
+		public static final String DISCOUNT_NAME_SENIOR = "Senior";
+		public static final String DISCOUNT_NAME_NONE = "No Discount";
+		public static final String DISCOUNT_NAME_QUIT = "Quit";
+		public static final double DISCOUNT_RATE_MEMBER = .15;
+		public static final double DISCOUNT_RATE_SENIOR = .25;
+		public static final double DISCOUNT_RATE_NONE = 0;
+		public static final String ITEM_NAME_PREMIUM = "Cheese";
+		public static final String ITEM_NAME_SPECIAL = "Blue Cheese";
+		public static final String ITEM_NAME_BASIC = "Goat Cheese";
+		public static final String ITEM_NAME_RETURN = "Return to Main Menu";
+		public static final double ITEM_PRICE_PREMIUM = 55.95;
+		public static final double ITEM_PRICE_SPECIAL = 24.95;
+		public static final double ITEM_PRICE_BASIC = 15.95;
+		public static final int RESET_VALUE = 0;
+	
+//MAIN METHOD
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Initializing Scanner
+		Scanner input = new Scanner(System.in);
+		//Declaring Local Variables
+		String userName = "";
+		char rateSelection = ' ';
+		char itemSelection = ' ';
+		int howMany = 0;
+		String discountName = "";
+		double discountRate = 0;
+		String itemName = "";
+		double itemPrice = 0;
+		double discountAmount = 0;
+		double discountPrice = 0;
+		double subTotal = 0;
+		double tax = 0;
+		double totalCost = 0;
+		int memberCount = 0;
+		int seniorCount = 0;
+		int noDiscountCount = 0;
+		double grandTotal = 0;
+		int premiumCount = 0;
+		int specialCount = 0;
+		int basicCount = 0;
+		double purchaseAmt = 0;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}//END MAIN METHOD
+	
+	
+	//VOID METHODS
+	
+			//Welcome Banner
+			public static void displayWelcomeBanner()
+			{
+				//DISPLAY WELCOME BANNER
+				System.out.println("Welcome to the Cheesiest Cheezers!");
+				System.out.println("This program will allow you to purchase your cheesy Cheese");
+				//Applying border
+				System.out.println("---------------------------------------------------");
+				
+			}//END VOID METHOD
+			
+			
+			//Farewell Message
+			public static void displayFarewellMessage()
+			{
+				//Farewell Message
+				System.out.println("---------------------------------------------------");
+				System.out.println("Thank you for using my Program!");
+				System.out.println("Have a great day!");
+			}//END VOID METHOD
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}//END MAIN CLASS
